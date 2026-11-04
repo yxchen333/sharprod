@@ -60,7 +60,7 @@ int main()
     {
         const Config config = load_config("input/config.txt");
 
-        const std::filesystem::path output_dir = R"(G:\work\vs\sharprod\output)";
+        const std::filesystem::path output_dir = "output";
         std::filesystem::create_directories(output_dir);
         std::filesystem::current_path(output_dir);
         const double pressure_end = stod(config.at("pressure_end"));
