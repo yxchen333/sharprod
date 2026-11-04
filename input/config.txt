@@ -1,0 +1,9 @@
+# Two-dimensional hard sharp-rod NPT simulation
+N = 200
+aspect_ratio = 25.0
+
+boundary_mode = periodic
+
+packing_fraction_end = 0.80
+pressure_end = 500.0
+mc_sweeps = 1000
